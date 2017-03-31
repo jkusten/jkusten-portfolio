@@ -1,0 +1,112 @@
+a{color: black;
+        -o-transition:.5s;
+        -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        transition:.5s;
+        font-family: arial;
+        font-size: 12px;
+        text-decoration: none;}
+    
+a:hover{color:bisque;
+              text-decoration: none;}
+    
+text.name{font-family: arial;
+         font-size: 12px;
+         font-style:italic;
+         left: 1010px;
+         top: 165px;
+         position:fixed;
+         transform: rotate(-30deg);}
+
+text.body{width: 380px;
+          height: 400px;
+          left: 610px;
+          top: 160px;
+          position: absolute;
+          font-family: arial;
+          font-size: 12px;}
+
+div.menu{width:200px;
+         position:fixed;
+         left:400px;
+         top: 150px;
+         text-align: right;}
+
+div.line1{border:1px solid white;
+          width:600px;
+          height:600px;
+          position:relative;}
+div.line1:after{content:"";
+                position:fixed;
+                border-top:1px solid black;
+                width:600px;
+                transform: rotate(150deg);
+                transform-origin: 225px 320px;}
+
+div.line2{border:1px solid white;
+          width:600px;
+          height:600px;
+          position:relative;}
+div.line2:after{content:"";
+                position:fixed;
+                border-top:1px solid black;
+                width:600px;
+                transform: rotate(150deg);
+                transform-origin: 855px -150px;}
+
+div.line3{border:1px solid white;
+          width:600px;
+          height:600px;
+          position:relative;}
+div.line3:after{content:"";
+                position:fixed;
+                border-top:1px solid black;
+                width:70px;
+                transform: rotate(90deg);
+                transform-origin: 650px -70px;}
+
+div.line4{border:1px solid white;
+          width:600px;
+          height:600px;
+          position:relative;}
+div.line4:after{content:"";
+                position:fixed;
+                border-top:1px solid black;
+                width:100px;
+                transform: rotate(90deg);
+                transform-origin: 100px -100px;}
+
+div.line5{border:1px solid white;
+          width:600px;
+          height:600px;
+          position:relative;}
+div.line5:after{content:"";
+                position:fixed;
+                border-top:1px solid black;
+                width:100px;
+                transform-origin: 200px -200px;}
+
+img.dinosaur{width:400px;
+               height:400px;
+               left: 600px;
+               top: 150px;
+               position:absolute;
+               z-index: 1;
+               transform: rotate(270deg);}
+
+img.side{width:400px;
+           height:400px;
+           left: 600px;
+           top: 150px;
+           position:absolute;
+           z-index: 0;}
+
+img.perspective{width:400px;
+                  height:400px;
+                  left: 600px;
+                  top: 150px;
+                  position:absolute;
+                  z-index: -1;}
+
+html{background-color: white;}
